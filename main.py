@@ -1,16 +1,14 @@
 import random
 import time
 import os
-import string
 import fade
 import colorama
 from colorama import Fore
-import socket
-import shutil
 import webbrowser
 import keyboard
 import requests
-
+webbrowser.open("discord.gg/jnn")
+webbrowser.open("https://www.youtube.com/channel/UCN8LRd8JnX2FkelKfnfRRfg")
 
 title = fade.purplepink("""
      ██╗███╗   ██╗███╗   ██╗    ██╗    ██╗██╗  ██╗███████╗
