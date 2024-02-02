@@ -1,14 +1,24 @@
-import random
-import time
-import os
-import fade
-import colorama
-from colorama import Fore
-import webbrowser
-import keyboard
-import requests
+try:
+    import time
+    import os
+    import fade
+    import colorama
+    from colorama import Fore
+    import keyboard
+    import requests
+    import webbrowser
+except ModuleNotFoundError:
+    print("Module not found error... Installing ALL Requirements!")
+    os.system("pip install requests")
+    os.system("pip install keyboard")
+    os.system("pip install colorama")
+    os.system("pip install fade")
+    os.system("python jnn_webhook_spammer.py")
+
 webbrowser.open("discord.gg/jnn")
 webbrowser.open("https://www.youtube.com/channel/UCN8LRd8JnX2FkelKfnfRRfg")
+
+os.system("title .gg/jnn | @jnnlol")
 
 title = fade.purplepink("""
      ██╗███╗   ██╗███╗   ██╗    ██╗    ██╗██╗  ██╗███████╗
