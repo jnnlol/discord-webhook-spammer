@@ -1,4 +1,5 @@
-# Simple webhook spammer for discord! 
+# Discord Webhook Spammer 
+# NO MODULES NEEEDED! Auto installs everything on open.
 
 ![image](https://github.com/jnnlol/discord-webhook-spammer/assets/101228734/1cccb8bf-5333-4522-b682-30a139018936)
 
